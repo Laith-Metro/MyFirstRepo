@@ -1,7 +1,6 @@
 import urllib.request as ur
 import json as j
 
-
 def get_answers(id):
     url = "https://play.kahoot.it/rest/kahoots/" + id
 
